@@ -65,8 +65,8 @@ To correct this you must enabled MD2 support in your `machine.config` file. This
 
 ### Why does SSL use certificates ?
 
-1.  SSL encrypts data - but encrypting data to an untrusted server doesn't improve much security. You need to know who is on the other side of the socket! (e.g. think about a man-in-the-middle attack between you and your bank).
-2.  SSL use X.509 certificates for the purpose of binding a public key with an entity (in this case the web server). The server gets its certificate from a certificate authority (CA) who certify that the key belongs to its owner. Finally you must **trust** that CA to do its job properly.
+1.SSL encrypts data - but encrypting data to an untrusted server doesn't improve much security. You need to know who is on the other side of the socket! (e.g. think about a man-in-the-middle attack between you and your bank).
+2.SSL use X.509 certificates for the purpose of binding a public key with an entity (in this case the web server). The server gets its certificate from a certificate authority (CA) who certify that the key belongs to its owner. Finally you must **trust** that CA to do its job properly.
 
 ### Are SSL client certificates supported ?
 
